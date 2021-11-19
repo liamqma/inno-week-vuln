@@ -10,4 +10,4 @@ pipelines:
     - step:
         name: Sync
         script:
-          - echo "Scheduled builds in Pipelines are awesome!"
+          - git remote -v
