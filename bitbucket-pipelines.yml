@@ -1,0 +1,13 @@
+#  Template NodeJS build
+
+#  This template allows you to validate your NodeJS code.
+#  The workflow allows running tests and code linting on the default branch.
+
+image: node:16
+
+pipelines:
+  default:
+    - step:
+        name: Sync
+        script:
+          - echo "Scheduled builds in Pipelines are awesome!"
