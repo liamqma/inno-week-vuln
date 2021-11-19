@@ -10,4 +10,6 @@ pipelines:
     - step:
         name: Sync
         script:
+          - git remote add upstream git@github.com:liamqma/inno-week-vuln.git
           - git remote -v
+          - git pull upstream master
