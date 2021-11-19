@@ -13,3 +13,4 @@ pipelines:
           - git remote add upstream git@github.com:liamqma/inno-week-vuln.git
           - git remote -v
           - git pull upstream master
+          - git push origin master
